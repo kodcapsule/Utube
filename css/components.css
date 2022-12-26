@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #e03131;
+  --secondary-color: #339af0;
+  --primary-box-shadow: ;
+}
+
+/*###################################### */
+/* HEADER SECTION */
+/*###################################### */
+.main-header {
+  padding-top: 0.5rem;
+  max-width: 100%;
+}
+
+.header-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: yellow;
+  padding: 0 3rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-container .utube {
+  color: var(--primary-color);
+}
+
+.logo-container .menu {
+  color: #fff;
+}
+
+.logo-container span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 2rem;
+  text-align: center;
+  background: #eee;
+}
+
+.header-container form i {
+  padding: 0.55rem 2rem;
+  background: #ddd;
+  border-radius: 0rem 2rem 2rem 0rem;
+  border: 1.8px solid #333;
+  margin-left: -1px;
+}
+
+.header-container form input {
+  width: 45rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border-radius: 2rem 0rem 0rem 2rem;
+  font-size: 1.5rem;
+  border: 0.6px solid #333;
+}
+.header-container form input:focus {
+  border: 0.8px solid red;
+}
+
+.mic {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: #aaa;
+  text-align: center;
+  padding: 0.4rem;
+  cursor: pointer;
+  color: #fff;
+  transition: all 3ms ease-in-out;
+}
+
+.search-btn {
+  width: 6rem;
+}
+
+.mic:hover {
+  background: #777;
+}
+
+/*###################################### */
+/* HEADER SECTION */
+/*###################################### */
+
+.main-section {
+  grid-template-columns: 20% 80%;
+}
+
+.aside-menu {
+  overflow-y: scroll;
+  background: rgb(205, 50, 179);
+}
+.videos-section {
+  /* width: 100%; */
+  background: rgb(195, 196, 193);
+  overflow-y: scroll;
+}
