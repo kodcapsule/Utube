@@ -6,7 +6,7 @@
   text-decoration: none;
   border: none;
   background: none;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 :root {
@@ -40,7 +40,7 @@ i {
 }
 .grid-container {
   display: grid;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 
 .grid-cols-2 {
