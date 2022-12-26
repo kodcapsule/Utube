@@ -20,12 +20,13 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container header-container">
+      <div class="header-container grid-container grid-cols-3">
         <div class="logo-container flex-container">
           <i class="fa-solid fa-bars menu"></i>
           <i class="fa-brands fa-youtube utube"></i>
           <span class="logo-name">UTube</span>
         </div>
+
         <div class="flex-container">
           <form action="" class="search-form">
             <input type="search" placeholder="Search" />
@@ -43,7 +44,52 @@
     </header>
 
     <main class="main-section grid-container">
-      <aside class="aside-menu"></aside>
+      <aside class="aside-menu">
+        <div class="aside-contianer">
+          <div class="aside-manue">
+            <ul class="aside-menu-items">
+              <li class="aside-menu-item">
+                <i class="fa-solid fa-house"></i>
+                <a href="#" class="aside-menu-link"> Home</a>
+              </li>
+              <li class="aside-menu-item">
+                <i class="fa-brands fa-squarespace"></i>
+                <a href="#" class="aside-menu-link">shorts </a>
+              </li>
+              <li class="aside-menu-item">
+                <i class="fa-solid fa-camera-retro"></i>
+                <a href="#" class="aside-menu-link"> subscriptions</a>
+              </li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="aside-manue">
+            <ul class="aside-menu-items">
+              <li class="aside-menu-item">
+                <i class="fa-solid fa-photo-film"></i>
+                <a href="#" class="aside-menu-link"> Library</a>
+              </li>
+              <li class="aside-menu-item">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <a href="#" class="aside-menu-link"> History</a>
+              </li>
+              <li class="aside-menu-item">
+                <i class="fa-solid fa-clapperboard"></i>
+                <a href="#" class="aside-menu-link"> Your Videos</a>
+              </li>
+              <li class="aside-menu-item">
+                <i class="fa-regular fa-clock"></i>
+                <a href="#" class="aside-menu-link"> Watch Later</a>
+              </li>
+
+              <li class="aside-menu-item">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <a href="#" class="aside-menu-link"> Liked Vieos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
       <section class="videos-section"></section>
     </main>
     <script src="js/main.js"></script>

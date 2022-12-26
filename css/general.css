@@ -6,6 +6,7 @@
   text-decoration: none;
   border: none;
   background: none;
+  overflow-x: hidden;
 }
 
 :root {
@@ -35,13 +36,11 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .grid-container {
   display: grid;
   gap: 1rem;
-  /* align-items: center; */
-  justify-items: center;
 }
 
 .grid-cols-2 {

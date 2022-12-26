@@ -9,22 +9,17 @@
 /*###################################### */
 .main-header {
   padding-top: 0.5rem;
-  max-width: 100%;
+  width: 100vw;
 }
 
 .header-container {
   max-width: 100%;
-  display: flex;
-  justify-content: space-between;
   background: yellow;
   padding: 0 3rem;
 }
 
 .logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  justify-self: left;
 }
 
 .logo-container .utube {
@@ -45,10 +40,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   border-radius: 2rem;
   text-align: center;
   background: #eee;
+  width: 100%;
 }
 
 .header-container form i {
@@ -60,15 +55,12 @@
 }
 
 .header-container form input {
-  width: 45rem;
+  width: 100%;
   padding: 1rem 2rem;
   border-radius: 2rem;
   border-radius: 2rem 0rem 0rem 2rem;
   font-size: 1.5rem;
   border: 0.6px solid #333;
-}
-.header-container form input:focus {
-  border: 0.8px solid red;
 }
 
 .mic {
@@ -91,12 +83,26 @@
   background: #777;
 }
 
+.user-actions {
+  justify-self: right;
+  gap: 3rem;
+}
+
+.user-actions i:last-child {
+  width: 3.2rem;
+  height: 3.2rem;
+  text-align: center;
+  background: #aaa;
+  border-radius: 50%;
+  padding: 2px;
+}
+
 /*###################################### */
-/* HEADER SECTION */
+/* MAIN SECTION */
 /*###################################### */
 
 .main-section {
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 85%;
 }
 
 .aside-menu {
